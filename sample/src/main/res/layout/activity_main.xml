@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aloj.progress.sample.MainActivity"
+    android:padding="24dp"
+    android:background="#FFFFFF">
+
+    <com.aloj.progress.DownloadProgressView
+        android:id="@+id/progress"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerInParent="true"/>
+
+    <android.support.v7.widget.AppCompatSeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progressBackgroundTint="#888888"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="84dp"/>
+
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/seekBar"
+        android:layout_marginBottom="6dp"
+        android:textColor="#888888"
+        android:layout_centerHorizontal="true"
+        android:text="0%"/>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Download Progress Sample</string>
+    <string name="download_started">Download started</string>
+    <string name="download_stopped">Download stopped</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="radial_progress_size">40dp</dimen>
+    <dimen name="default_radial_progress_stroke_size">2dp</dimen>
+    <dimen name="radial_progress_padding">3dp</dimen>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="radial_size">9dp</dimen>
+    <dimen name="radial_size_2">18dp</dimen>
+
+</resources>
